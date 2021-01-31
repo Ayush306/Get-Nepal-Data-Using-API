@@ -1,0 +1,70 @@
+body {
+    background-color: gray;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.card-body-img {
+    /* display: flex; */
+    margin-left: 140px;
+    margin-top: 24px;
+    width: 150px;
+
+}
+
+h1 {
+    display: flex;
+    margin-left: -19px;
+    justify-content: center;
+}
+
+.card-body-text {
+    display: flex;
+    margin-left: 132px;
+
+}
+
+#card {
+    display: flex;
+    margin-top:9%;
+    margin-left: 35%;
+    
+    background-color: orange;
+    width: 400px;
+    border-radius: 30px;
+
+}
+
+h3 {
+    display: inline;
+    margin-left: 5px;
+    padding: 0px;
+}
+
+p {
+    display: flex;
+    padding: 0px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+#card-footer-social1 {
+
+    padding-top: 40px;
+}
+
+.card-footer {
+    margin-left: 20px;
+}
+
+#card-footer-social2 {
+    margin: -67px 0px 0px 144px;
+}
+
+#card-footer-social3 {
+    margin: -67px 43px 33px 275px;
+}
+
+hr{
+    width: 398px;
+    margin-left: 0px;
+}

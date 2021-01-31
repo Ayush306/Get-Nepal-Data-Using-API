@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Nepal Data Using API</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        
+        body {
+            background-color: gray;
+            font-family: 'Yusei Magic', sans-serif;
+        }
+
+        .card-body-img {
+            /* display: flex; */
+            margin-left: 140px;
+            margin-top: 24px;
+            width: 150px;
+
+        }
+
+        h1 {
+            display: flex;
+            margin-left: -19px;
+            justify-content: center;
+        }
+
+        .card-body-text {
+            display: flex;
+            margin-left: 132px;
+
+        }
+
+        #card {
+            display: flex;
+            margin-top:9%;
+            margin-left: 35%;
+            
+            background-color: orange;
+            width: 400px;
+            border-radius: 30px;
+
+        }
+
+        h3 {
+            display: inline;
+            margin-left: 5px;
+            padding: 0px;
+        }
+
+        p {
+            display: flex;
+            padding: 0px;
+            margin-left: 5px;
+            margin-top: 0px;
+        }
+
+        #card-footer-social1 {
+
+            padding-top: 40px;
+        }
+
+        .card-footer {
+            margin-left: 20px;
+        }
+
+        #card-footer-social2 {
+            margin: -67px 0px 0px 144px;
+        }
+
+        #card-footer-social3 {
+            margin: -67px 43px 33px 275px;
+        }
+
+        hr{
+            width: 398px;
+            margin-left: 0px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <!-- <script>
+        const container = document.querySelector('#container');
+        const request = new XMLHttpRequest();
+
+        request.open('GET', 'https://restcountries.eu/rest/v2/name/nepal');
+        request.send();
+
+        request.addEventListener('load', function () {
+            // console.log(this.responseText);
+
+            const [data] = JSON.parse(this.responseText);
+            // console.log(data);
+
+            const htmlData = `
+        <div id="card">
+    <article class="card">
+        <div class="card-body">
+            <img src="${data.flag}" alt="image" class="card-body-img">
+            <h1 class="card-body-title">
+                ${data.name}<span></span>
+            </h1>
+
+            <p class="card-body-text">Capital: ${data.capital}</p>
+        </div>
+        <hr>
+
+        <div class="card-footer">
+            <div id="card-footer-social1">
+                <h3>${data.nativeName}</h3>
+                <p>Native language</p>
+            </div>
+            <div id="card-footer-social2">
+                <h3> ${data.population}</h3>
+                <p>Populaton</p>
+            </div>
+            <div id="card-footer-social3">
+                <h3>${data.demonym}</h3>
+                <p>Demonym</p>
+            </div>
+        </div>
+    </article>
+</div>
+        `;
+            container.insertAdjacentHTML("beforebegin", htmlData)
+        })
+    </script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
